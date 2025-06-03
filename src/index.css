@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+@import "tailwindcss";
+
+/* 
+  Define CSS custom properties (variables) for Earth Tone theme
+  Using OKLCH color space for better perceptual uniformity
+*/
+@theme {
+  /* Earth Tone Color Palette */
+  --color-muted-navy: oklch(0.1691 0.0321 250.7);        /* Warm Gray Background Color */
+  --color-cool-gray: oklch(0.2621 0.0095 248.19);        /* Cool Gray */  
+  --color-navy: oklch(0.1795 0.0511 250.7);        /* Navy Blue */  
+  --color-hot-pink: oklch(0.6549 0.2613 356.94);         /* Hot Pink */
+  --color-light-pink: oklch(0.7283 0.1971 351.99);          /* Light Pink */
+  --color-sky-blue: oklch(0.7403 0.1559 235.89); /* Sky Blue accent color */
+  --color-main-white: oklch(0.8945 0 0);          /* Very light gray for text */
+
+  /* Font families */
+  --font-sans: "Fira Code", monospace;
+
+  /* Common UI variables */
+  --radius-large: 1rem;               /* Large border radius */
+  --shadow-soft: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Smooth scroll for anchor navigation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Offset scroll margin to accommodate fixed navbar height */
+section {
+  scroll-margin-top: 30px; /* Adjust based on your navbar height */
+}

@@ -1,12 +1,28 @@
-# React + Vite
+# dev-by-derola
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website showcasing my mission, skills, and featured projects.  
+Built with [Vite](https://vitejs.dev/), [React](https://reactjs.org/), and [Tailwind CSS](https://tailwindcss.com/).
 
-Currently, two official plugins are available:
+## ✨ Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This site highlights my creative and technical background, with sections for:
 
-## Expanding the ESLint configuration
+- **Mission** – A brief statement on the fusion of creativity and development that drives my work.
+- **Skills** – Key technologies and tools I'm familiar with, visually represented.
+- **Projects** – Selected personal and academic projects, including descriptions and live/demo links.
+- **Contact** – Quick links to reach me via GitHub, LinkedIn, or email.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 Live Site
+
+Visit the site at [https://devbyderola.com](https://devbyderola.com)
+
+## 🛠 Tech Stack
+
+- **Frontend:** React + Vite
+- **Styling:** Tailwind CSS
+- **Icons:** Heroicons, custom assets
+- **Deployment:** GitHub Pages with custom domain
+
+---
+
+© 2025 Aderola Owaduge

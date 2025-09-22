@@ -6,7 +6,7 @@ function Mission() {
       <div className="max-w-5xl mx-auto bg-navy rounded-2xl shadow-2xl p-8 md:p-12">
         <div className="flex flex-col lg:flex-row items-center gap-10">
             {/*Show Title here on small/medium screens*/}
-          <h2 className="text-4xl text-light-pink font-normal mt-2 hidden sm:block lg:hidden">
+          <h2 className="text-4xl text-light-pink font-normal mt-2 block lg:hidden">
             Mission
           </h2>
 
@@ -26,7 +26,7 @@ function Mission() {
               Mission
             </h2>
             <p className="leading-relaxed mb-5">
-              I'm a rising senior at the University of Michigan–Ann Arbor, majoring in Computer Science with a minor in Computing for Scientific Discovery.
+              I'm a senior at the University of Michigan–Ann Arbor, majoring in Computer Science with a minor in Computing for Scientific Discovery.
             </p>
             <p className="leading-relaxed">
               I aspire to be a full stack developer who seamlessly blends

@@ -15,17 +15,17 @@ function App() {
       <Navbar />
       {/* Parallax Context Provider */}
       <ParallaxProvider>
-        <div className="min-h-screen shadow-[0_4px_12px_rgba(0,0,0,0.2)]">
+        <div className="min-h-screen shadow-[0_4px_12px_rgba(0,0,0,0.2)] mb-10">
           {/* Hero Banner with Parallax Effect */}
           <ParallaxBanner
             layers={[{ image: "./assets/grand_rapids.JPG", speed: -20 }]}
-            className="aspect-[2/1] relative mb-8"
+            className="min-h-[100vh] relative"
           >
             {/* Black overlay to darken image */}
             <div className="absolute inset-0 bg-navy/20 z-0" />
 
             {/* Gradient overlay and centered intro text */}
-            <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/50 flex flex-col items-center justify-center px-6">
+            <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/50 flex flex-col items-center justify-center px-8">
               <motion.h1
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -47,7 +47,7 @@ function App() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 2, duration: 1 }}
-                className="mt-2 text-lg italic text-center"
+                className="mt-5 text-lg italic text-center"
               >
                 Shaping ideas into reality, one line of code at a time
               </motion.p>

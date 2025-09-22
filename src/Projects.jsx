@@ -67,13 +67,13 @@ function Projects() {
                     <img
                       src={mediaSrc}
                       alt={mediaAlt}
-                      className="rounded-lg shadow-lg w-full h-[275px] object-cover"
+                      className="rounded-lg shadow-lg w-full aspect-video object-cover transition-transform duration-600 ease-in-out hover:scale-105 hover:shadow-[0_4px_25px_rgba(20,184,255,0.5)]"
                     />
                   </a>
                 )}
                 {mediaType === "video" && (
                   <video
-                    className="rounded-lg shadow-lg w-full max-w-lg h-[275px]"
+                    className="rounded-lg shadow-lg w-full max-w-lg aspect-video"
                     poster={mediaPoster}
                     autoPlay
                     muted
